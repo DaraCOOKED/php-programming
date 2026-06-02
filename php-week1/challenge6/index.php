@@ -1,6 +1,19 @@
 <!-- TODO -->
 <!-- create PHP variables to store information in the form -->
 
+
+<?php 
+
+
+
+$num1 = 10;                
+$num2 = 5;                 
+$result = $num1 + $num2;
+echo $result; 
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 

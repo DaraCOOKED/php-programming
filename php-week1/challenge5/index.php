@@ -1,9 +1,27 @@
-<!-- TODO -->
-<!-- create PHP variables to store information in the form -->
+<?php 
 
+
+$product = [
+    "productName" => "kid",
+    "category" => "kids",
+    "price" => 67,
+    "availableStock" => 67,
+    "productDescription" => "You should buy the product because you need to insert yourself to the product.",
+    "productImage" => $_FILES["dara.png"]["name"] ?? null
+];       
+
+$productName = "kid";
+$category = "kids";
+$price = 67;
+$availableStock = 67;
+$productDescription = "You should buy the product please if you dont buy i will kill you.";
+$productImage = $_FILES["dara.png"]["name"] ?? null
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

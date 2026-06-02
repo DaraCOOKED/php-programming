@@ -1,6 +1,11 @@
-<!-- TODO -->
-<!-- create PHP variables to store information in the form -->
+<?php 
 
+$email = 'dara@gmail.com';
+$password = "15423678";
+$inActive = false;
+$inUnActive = true;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
