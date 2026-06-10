@@ -1,10 +1,14 @@
 <?php
-
+// ex 7
 $isLoggedIn = true;
 $isAdmin = false;
 
-if ($isLoggedIn || $isAdmin) {
-    echo "Welcome User";
-}
+var_dump($isLoggedIn && $isAdmin);
+echo "<br>";
 
+var_dump($isLoggedIn ||$isAdmin);
+echo "<br>";
+
+var_dump(!$isAdmin);
+  
 ?>

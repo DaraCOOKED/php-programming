@@ -1,5 +1,5 @@
 <?php 
-
+// ex 5
 $age = 18;
 
 var_dump($age == 18);
